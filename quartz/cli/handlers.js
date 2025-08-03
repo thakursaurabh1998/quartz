@@ -1,37 +1,36 @@
-import { promises } from "fs"
-import path from "path"
-import esbuild from "esbuild"
-import { styleText } from "util"
-import { sassPlugin } from "esbuild-sass-plugin"
-import fs from "fs"
 import { intro, outro, select, text } from "@clack/prompts"
-import { rm } from "fs/promises"
-import chokidar from "chokidar"
-import prettyBytes from "pretty-bytes"
-import { execSync, spawnSync } from "child_process"
-import http from "http"
-import serveHandler from "serve-handler"
-import { WebSocketServer } from "ws"
-import { randomUUID } from "crypto"
 import { Mutex } from "async-mutex"
-import { CreateArgv } from "./args.js"
+import { execSync, spawnSync } from "child_process"
+import chokidar from "chokidar"
+import { randomUUID } from "crypto"
+import esbuild from "esbuild"
+import { sassPlugin } from "esbuild-sass-plugin"
+import fs, { promises } from "fs"
+import { rm } from "fs/promises"
 import { globby } from "globby"
+import http from "http"
+import path from "path"
+import prettyBytes from "pretty-bytes"
+import serveHandler from "serve-handler"
+import { styleText } from "util"
+import { WebSocketServer } from "ws"
+import { CreateArgv } from "./args.js"
 import {
-  exitIfCancel,
+  cacheFile,
+  cwd,
+  fp,
+  ORIGIN_NAME,
+  QUARTZ_SOURCE_BRANCH,
+  UPSTREAM_NAME,
+  version,
+} from "./constants.js"
+import {
   escapePath,
+  exitIfCancel,
   gitPull,
   popContentFolder,
   stashContentFolder,
 } from "./helpers.js"
-import {
-  UPSTREAM_NAME,
-  QUARTZ_SOURCE_BRANCH,
-  ORIGIN_NAME,
-  version,
-  fp,
-  cacheFile,
-  cwd,
-} from "./constants.js"
 
 /**
  * Resolve content directory path
