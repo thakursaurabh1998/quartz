@@ -3,7 +3,7 @@ title: New Notes?
 description: New notes, new website.
 draft: false
 date: 2025-08-03
-cover: ./image.jpg
+cover: ./other-content/me-512x512.png
 tags:
   - test
 ---

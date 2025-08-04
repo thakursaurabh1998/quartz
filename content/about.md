@@ -1,0 +1,64 @@
+---
+title: About
+description: About page | Saurabh Thakur
+date: 2020-02-08
+---
+
+I am a Software Developer by profession and by my own pure &nbsp;💖 for it. I believe that knowledge is power, and to keep that power with me, I like to explore new things and study about how the industry is growing and how big players are using the technology to provide the best in class experience to customers like you and me. Also I consider OSS to be a very important part of anyone who is in this industry, be it a student who is currently learning things or a tech giant.
+
+I also love to drive and travel to see the beauty that the &nbsp;🌏 has left there for me to explore. I participate in <a target="_blank" rel="noreferrer" href="https://ketto.org">fund raisers</a> for humane causes on a monthly basis and I suggest you to do the same. I consider my family and friends as the most important part of me and love to spend time with them. 😃
+
+<center><img src="./me-bw.jpg" alt="My awesome picture"/></center>
+
+# Work
+
+## [Cruise](https://getcruise.com)
+> (March 2022 - Present)
+
+I am working as a contractor at Cruise. Cruise is working on self-driving(autonomous) vehicles and has a large fleet serving the streets of San Francisco.
+
+I am a part of the Product Engineering team and responsible for internal tools that helps to manage the configuration of the autonomous vehicles and data offloading.
+
+<br/>
+
+## [Clarisights](https://clarisights.com)
+> (May 2021 - Feb 2022)
+
+I joined as a Data Engineer at Clarisights. Clarisights streamlines reporting for sophisticated performance marketing teams. It automatically integrates, processes and visualises all your data from all of your marketing, analytical and attribution sources.
+
+At Clarisights I was part of the ETL team and was responsible for maintaining the data pipeline. I also worked on integrations to fetch data from multiple sources, storing it in an optimized and efficient manner in the database.
+
+<br/>
+
+## [smallcase](https://smallcase.com)
+> (Feb 2019 - April 2021)
+
+I was a Software Developer at smallcase. As <a target="_blank" rel="noreferrer" href="https://www.fortuneindia.com/enterprise/big-things-come-in-small-cases/103692">Fortune India said</a>, smallcase is a new way to invest in the stock market and could change the way how people invest their money.
+
+At smallcase I handled the smallcase API be it B2C or B2B. I have worked on products such as the <a target="_blank" rel="noreferrer" href="https://smallcase.com">smallcase platform</a>, <a target="_blank" rel="noreferrer" href="https://publisher.smallcase.com">publisher</a> and my major contribution went to <a target="_blank" rel="noreferrer" href="https://gateway.smallcase.com">gateway</a>. I took a good portion of my time to understand how stock market and brokers work and how we are providing our product on top of it.
+
+smallcase gave me an opportunity to understand the basics of how the financial system works which I had no idea about previously.
+
+<br/>
+
+##### Education
+
+I studied Computer Science and Engineering at <a target="_blank" rel="noreferrer" href="https://chitkara.edu.in">Chitkara University</a>, Punjab (Batch of 2020).
+
+- Participated in <a target="_blank" rel="noreferrer" href="https://summerofcode.withgoogle.com/archive/2019/projects/5362213500485632/">Google Summer of Code 2019</a> with <a target="_blank" rel="noreferrer" href="https://aossie.gitlab.io">Australian Open Source Software Innovation and Education (AOSSIE)</a> organization working on <a target="_blank" rel="noreferrer" href="https://gitlab.com/aossie/CarbonFootprint-API">CarbonFootprint-API</a>
+
+- Took part in various hackathons, but one which left a mark was <a target="_blank" rel="noreferrer" href="https://www.topcoder.com/challenges/30070727?tab=winners">Call for Code</a>. The subject was natural disaster preparedness and relief, so we (me and <a target="_blank" rel="noreferrer" href="https://github.com/madhurgupta10">Madhur Gupta</a>) created a decentralized donation platform which can aid the relief process after a disaster.
+
+##### Community and Leadership
+
+- Was the **Lead** of <a target="_blank" rel="noreferrer" href="https://developers.google.com/community/dsc">Google Developer Student Club (DSC)</a>, lead a community of student developers, organizing various hackathons and workshops for university students on various topics.
+
+- Google Summer of Code 2020 **mentor**. Volunteered to work with the students to help and coordinate them with the best of my abilities and skills.
+
+<br/>
+
+---
+
+<br/>
+
+Checkout the blogs that I write to express my thoughts about tech and "other" important stuff [here](/blog).
