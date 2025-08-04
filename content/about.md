@@ -19,16 +19,12 @@ I am working as a contractor at Cruise. Cruise is working on self-driving(autono
 
 I am a part of the Product Engineering team and responsible for internal tools that helps to manage the configuration of the autonomous vehicles and data offloading.
 
-<br/>
-
 ## [Clarisights](https://clarisights.com)
 > (May 2021 - Feb 2022)
 
 I joined as a Data Engineer at Clarisights. Clarisights streamlines reporting for sophisticated performance marketing teams. It automatically integrates, processes and visualises all your data from all of your marketing, analytical and attribution sources.
 
 At Clarisights I was part of the ETL team and was responsible for maintaining the data pipeline. I also worked on integrations to fetch data from multiple sources, storing it in an optimized and efficient manner in the database.
-
-<br/>
 
 ## [smallcase](https://smallcase.com)
 > (Feb 2019 - April 2021)
@@ -38,8 +34,6 @@ I was a Software Developer at smallcase. As <a target="_blank" rel="noreferrer" 
 At smallcase I handled the smallcase API be it B2C or B2B. I have worked on products such as the <a target="_blank" rel="noreferrer" href="https://smallcase.com">smallcase platform</a>, <a target="_blank" rel="noreferrer" href="https://publisher.smallcase.com">publisher</a> and my major contribution went to <a target="_blank" rel="noreferrer" href="https://gateway.smallcase.com">gateway</a>. I took a good portion of my time to understand how stock market and brokers work and how we are providing our product on top of it.
 
 smallcase gave me an opportunity to understand the basics of how the financial system works which I had no idea about previously.
-
-<br/>
 
 ##### Education
 
@@ -55,10 +49,6 @@ I studied Computer Science and Engineering at <a target="_blank" rel="noreferrer
 
 - Google Summer of Code 2020 **mentor**. Volunteered to work with the students to help and coordinate them with the best of my abilities and skills.
 
-<br/>
-
 ---
-
-<br/>
 
 Checkout the blogs that I write to express my thoughts about tech and "other" important stuff [here](/blog).
