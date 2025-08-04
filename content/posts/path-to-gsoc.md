@@ -1,7 +1,7 @@
 ---
 title: 'Path to Google Summer of Code'
 description: "I will explain what all I did to get to the GSoC '19"
-cover: ./gsoc200.png
+cover: blog-content/gsoc200.png
 date: 2020-02-08
 tags:
   - OSS
