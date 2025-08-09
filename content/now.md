@@ -1,13 +1,13 @@
 ---
 title: Now
-description: "This page updates the user with all the current things in my life."
+description: This page updates the user with all the current things in my life.
 date: 2025-01-01
+aliases: []
 ---
 
 > Inspired by Derek Siver's <a target="_blank" rel="noreferrer" href="https://nownownow.com/about">/now movement</a>.
 
 ---
-
 # January, 2025
 
 ## Life
@@ -16,7 +16,7 @@ date: 2025-01-01
 - Socializing in all new ways. Finding time for friends, making time for new ones.
 - Feeling good being back in Bangalore - never knew I will miss the city, but here I am. Life is boring and repetitive, but ironically, it's filled with energy (you know what I mean?).
 
-<center><img src="./cubbon.jpeg" alt="Cubbon Park" /></center>
+<center><img src="./images/cubbon.jpeg" alt="Cubbon Park" /></center>
 
 ## Learning
 
@@ -40,8 +40,6 @@ I try to travel and do short trips and discover places nearby, wherever I am liv
 - Next up is Leh with friends, let's see if it becomes a reality!
 - Want to see snowfall at the end of 2025 in some Himalayan village.
 - New Zealand is stuck inside my head now. The natural landscapes that it offers are beautiful. I just dream of driving in a car across New Zealand now and hope to make this a reality soon. 🇳🇿
-
-
 ## What else?
 
 - Taking time to get bored. Getting comfortable with it.

@@ -1,19 +1,18 @@
 ---
-title: 'Path to Google Summer of Code'
-description: "I will explain what all I did to get to the GSoC '19"
+title: Path to Google Summer of Code
+description: I will explain what all I did to get to the GSoC '19
 cover: blog-content/gsoc200.png
 date: 2020-02-08
 tags:
   - OSS
   - Development
 ---
-
 Google <a target="_blank" rel="noreferrer" href="https://summerofcode.withgoogle.com/">Summer of Code</a> is a global program focused on bringing more student developers into open-source software development. Students work with organizations on various projects which they like.
 Open-source software is <strong>everywhere</strong>, even if you aren't aware but you are using OSS in some way or another. <a target="_blank" rel="noreferrer" href="https://www.linux.org/">Linux</a>, <a target="_blank" rel="noreferrer" href="https://www.mozilla.org/en-US/firefox/">Firefox</a>, <a target="_blank" rel="noreferrer" href="https://wordpress.com/">Wordpress</a>, <a target="_blank" rel="noreferrer" href="https://www.videolan.org/vlc/index.html">VLC Media Player</a> and many more. As open-source software is free and people do open-source development out of their <i>sheer interest</i>, during Summer of Code, Google provides funds to these organizations so that they can take part and promote OSS development. It is a <strong>win-win</strong> for us as student developers, we get a chance to develop OSS and be part of the community.
 
 We can take full **advantage** of this initiative to contribute to OSS.
 
-<center><img src="./gsoc15.png" alt="gsoc celebrating 15 years in 2019" /></center>
+<center><img src="./images/gsoc15.png" alt="gsoc celebrating 15 years in 2019" /></center>
 
 > I receive plenty of messages and emails from juniors asking how to start development and how to start working for GSoC, this blog will help me to remove the **repetitive** task of telling every one separately, this will also solve the issue of **me missing** some important points when I tell everyone separately.
 
@@ -48,7 +47,7 @@ Working in open source, you have to follow some practices and rules. How to repo
 
 The following diagram breaks down the different stages of how to go through any open source project and start contributing.
 
-<center><img src="./OSSPRLifecycle.png" alt="Open source PR life cycle" /></center>
+<center><img src="./images/OSSPRLifecycle.png" alt="Open source PR life cycle" /></center>
 
 # Looking out
 
@@ -90,6 +89,6 @@ For reference here is <a target="_blank" rel="noreferrer" href="/gsoc_proposal.p
 
 Now you wait until the day results are announced and you receive this **lovely, gorgeous and the unbelievable** email you were so _anxious_ for.
 
-<center><img src="./acceptance_email.png" alt="Acceptance letter from Google Summer of Code" /></center>
+<center><img src="./images/acceptance_email.png" alt="Acceptance letter from Google Summer of Code" /></center>
 
 In the end, it's not about the name or the fame that **"Google Summer of Code"** has, neither the **overwhelming** stipend you get, but the **_sense of relief and pride of contributing to something meaningful_** along with the ownership which will be something of more than a project to you, forever.
