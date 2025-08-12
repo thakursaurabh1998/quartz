@@ -12,7 +12,7 @@ Open-source software is <strong>everywhere</strong>, even if you aren't aware bu
 
 We can take full **advantage** of this initiative to contribute to OSS.
 
-<center><img src="./images/gsoc15.png" alt="gsoc celebrating 15 years in 2019" /></center>
+<center><img src="posts/images/gsoc15.png" alt="gsoc celebrating 15 years in 2019" /></center>
 
 > I receive plenty of messages and emails from juniors asking how to start development and how to start working for GSoC, this blog will help me to remove the **repetitive** task of telling every one separately, this will also solve the issue of **me missing** some important points when I tell everyone separately.
 
@@ -47,8 +47,7 @@ Working in open source, you have to follow some practices and rules. How to repo
 
 The following diagram breaks down the different stages of how to go through any open source project and start contributing.
 
-<center><img src="./images/OSSPRLifecycle.png" alt="Open source PR life cycle" /></center>
-
+<center><img src="posts/images/OSSPRLifecycle.png" alt="Open source PR life cycle" /></center>
 # Looking out
 
 After being comfortable with your technical skills, the time comes to visit the **_uncomfortable_** zone.
@@ -89,6 +88,6 @@ For reference here is <a target="_blank" rel="noreferrer" href="/gsoc_proposal.p
 
 Now you wait until the day results are announced and you receive this **lovely, gorgeous and the unbelievable** email you were so _anxious_ for.
 
-<center><img src="./images/acceptance_email.png" alt="Acceptance letter from Google Summer of Code" /></center>
+<center><img src="posts/images/acceptance_email.png" alt="Acceptance letter from Google Summer of Code" /></center>
 
 In the end, it's not about the name or the fame that **"Google Summer of Code"** has, neither the **overwhelming** stipend you get, but the **_sense of relief and pride of contributing to something meaningful_** along with the ownership which will be something of more than a project to you, forever.

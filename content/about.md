@@ -8,7 +8,7 @@ I am a Software Developer by profession and by my own pure &nbsp;💖 for it. I 
 
 I also love to drive and travel to see the beauty that the &nbsp;🌏 has left there for me to explore. I participate in <a target="_blank" rel="noreferrer" href="https://ketto.org">fund raisers</a> for humane causes on a monthly basis and I suggest you to do the same. I consider my family and friends as the most important part of me and love to spend time with them. 😃
 
-<center><img src="./images/me-bw.jpg" alt="My awesome picture"/></center>
+<center><img src="images/me-bw.jpg" alt="My awesome picture"/></center>
 
 # Work
 

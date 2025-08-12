@@ -16,7 +16,7 @@ aliases: []
 - Socializing in all new ways. Finding time for friends, making time for new ones.
 - Feeling good being back in Bangalore - never knew I will miss the city, but here I am. Life is boring and repetitive, but ironically, it's filled with energy (you know what I mean?).
 
-<center><img src="./images/cubbon.jpeg" alt="Cubbon Park" /></center>
+<center><img src="images/cubbon.jpeg" alt="Cubbon Park" /></center>
 
 ## Learning
 
