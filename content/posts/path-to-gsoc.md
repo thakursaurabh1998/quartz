@@ -1,14 +1,14 @@
 ---
 title: Path to Google Summer of Code
 description: I will explain what all I did to get to the GSoC '19
-cover: blog-content/gsoc200.png
+cover: blog-content/preview/gsoc200.png
 date: 2020-02-08
 tags:
   - OSS
   - Development
 ---
 Google <a target="_blank" rel="noreferrer" href="https://summerofcode.withgoogle.com/">Summer of Code</a> is a global program focused on bringing more student developers into open-source software development. Students work with organizations on various projects which they like.
-Open-source software is <strong>everywhere</strong>, even if you aren't aware but you are using OSS in some way or another. <a target="_blank" rel="noreferrer" href="https://www.linux.org/">Linux</a>, <a target="_blank" rel="noreferrer" href="https://www.mozilla.org/en-US/firefox/">Firefox</a>, <a target="_blank" rel="noreferrer" href="https://wordpress.com/">Wordpress</a>, <a target="_blank" rel="noreferrer" href="https://www.videolan.org/vlc/index.html">VLC Media Player</a> and many more. As open-source software is free and people do open-source development out of their <i>sheer interest</i>, during Summer of Code, Google provides funds to these organizations so that they can take part and promote OSS development. It is a <strong>win-win</strong> for us as student developers, we get a chance to develop OSS and be part of the community.
+Open-source software is **everywhere**, even if you aren't aware but you are using OSS in some way or another. <a target="_blank" rel="noreferrer" href="https://www.linux.org/">Linux</a>, <a target="_blank" rel="noreferrer" href="https://www.mozilla.org/en-US/firefox/">Firefox</a>, <a target="_blank" rel="noreferrer" href="https://wordpress.com/">Wordpress</a>, <a target="_blank" rel="noreferrer" href="https://www.videolan.org/vlc/index.html">VLC Media Player</a> and many more. As open-source software is free and people do open-source development out of their _sheer interest_, during Summer of Code, Google provides funds to these organizations so that they can take part and promote OSS development. It is a **win-win** for us as student developers, we get a chance to develop OSS and be part of the community.
 
 We can take full **advantage** of this initiative to contribute to OSS.
 
@@ -48,6 +48,7 @@ Working in open source, you have to follow some practices and rules. How to repo
 The following diagram breaks down the different stages of how to go through any open source project and start contributing.
 
 <center><img src="posts/images/OSSPRLifecycle.png" alt="Open source PR life cycle" /></center>
+
 # Looking out
 
 After being comfortable with your technical skills, the time comes to visit the **_uncomfortable_** zone.
@@ -82,7 +83,7 @@ Also, try to be as **detailed** as possible, _distribute_ the work you will do i
 
 To show your dedication and element of proof, you should try to include all the contributions you have done in the projects of that particular organization. Include all the issues you created and Merge Requests you opened or had merged. This helps the organization to build a sense of confidence in your work.
 
-For reference here is <a target="_blank" rel="noreferrer" href="/gsoc_proposal.pdf">the application</a> which I submitted.
+For reference here is <a target="_blank" rel="noreferrer" href="static/blog-content/gsoc_proposal.pdf">the application</a> which I submitted.
 
 # Now what?
 
