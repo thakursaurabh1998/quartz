@@ -35,7 +35,7 @@ Fellow folks without whom this journey would have been _"very different"_ includ
 **And all of them together taught me that a workplace can be a fun and interesting place to be at.**
 
 > Diwali 2019 at smallcase HQ
-<center><img src="posts/images/diwali_sc.jpg" alt="Diwali 2019 at smallcase" /></center>
+<center><img src="thoughts/images/diwali_sc.jpg" alt="Diwali 2019 at smallcase" /></center>
 
 Finally, I can't be thankful enough to each and every person who was a part of this journey because in a way or another you made me a better person. Everyone here is destined for great things that are waiting for them in their future. I hope I get to work again with these amazing minds and souls.
 

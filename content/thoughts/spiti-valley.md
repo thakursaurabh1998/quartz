@@ -17,4 +17,4 @@ It wasn't just a trip, it was an experience of a lifetime, and I recommend every
 
 Our itinerary included multiple places, and we had to travel almost every day. I am going to leave some pictures of my experiences in my photography website, you can <a target="_blank" rel="noreferrer" href="https://imprints.saurabhthakur.dev">check it out here</a>. I hope you like it.
 
-<center><img alt="Imprints website screen capture" src="posts/images/imprints-spiti.png" /></center>
+<center><img alt="Imprints website screen capture" src="thoughts/images/imprints-spiti.png" /></center>
