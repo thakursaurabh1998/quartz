@@ -3,6 +3,8 @@ title: "Intro to Hexagonal Architecture"
 description: "Learning the use cases of Hexagonal architecture and the problems it solve"
 cover: blog-content/preview/hero-image.jpg
 date: 2023-01-08
+alias:
+  - intro-to-hexagonal-architecture
 tags:
   - Architecture
 ---
@@ -27,35 +29,42 @@ Bad handwriting? I know.
 
 Let's understand what the above gibberish means
 
-- **Entity:** Let's say an entity is an object of your system that the codebase and its function understand, for example, a user object. When anybody asks for this entity, it's provided as a simple object, which may look like this:
+### Entity
 
-  ```json
-  {
-    "name": "Saurabh Thakur",
-    "age": 24
-  }
-  ```
+Let's say an entity is an object of your system that the codebase and its function understand, for example, a user object. When anybody asks for this entity, it's provided as a simple object, which may look like this:
 
-  I am saying may because different languages might make different types of objects, such as an ActiveRecord in Ruby or a JSON object in Javascript. By looking at an entity, nobody can tell if it's coming from a distributed cache, a database, or an API.
+```json
+{
+  "name": "Saurabh Thakur",
+  "age": 24
+}
+```
 
-- **Repository:** It is an interface that provides getter and setter functions to fetch and save entities to the data source. The repository is the place where you write some code to fetch your data from the data source and make it look like the entity you want.
-- **Interactors:** Interactor is the component that triggers our business logic. An interactor can be anything: a web-hook, a queued message, an API call, and so on. It uses the entity to run the business logic.
+I am saying may because different languages might make different types of objects, such as an ActiveRecord in Ruby or a JSON object in Javascript. By looking at an entity, nobody can tell if it's coming from a distributed cache, a database, or an API.
 
-The outer part of the above diagram depicts components that are highly decoupled and can be changed when the time arises without changing the business logic.
+### Repository
+
+It is an interface that provides getter and setter functions to fetch and save entities to the data source. The repository is the place where you write some code to fetch your data from the data source and make it look like the entity you want.
+
+### Interactors
+
+Interactor is the component that triggers our business logic. An interactor can be anything: a web-hook, a queued message, an API call, and so on. It uses the entity to run the business logic.
+
+> The outer part of the above diagram depicts components that are highly decoupled and can be changed when the time arises without changing the business logic.
 
 ## Advantages
 
 I already talked about the many advantages of having a hexagonal architecture. Allow me to add a few more.
 
-- **Data source abstraction**
+### Data source abstraction
 
   Your application doesn't care if you use MongoDB, Postgres, or some new Chemical X. It only cares that the entity should look the same, and that is handled in the repository interface. Switching databases or simply adding data sources can become less painful and much faster.
 
-- **Testing becomes easier and straight forward**
+### Testing becomes easier and straight forward
 
   Your core business tests remain unchanged in the event of a data source update or a new interactor. This increases the reliability of a system during component updates. Your core logic remains untouched. Also, since your data source is abstracted out, mocking data becomes much easier. Tests become more rapid.
 
-- **Solving the <a target="_blank" rel="noreferrer" href="https://twitter.com/tofo/status/512666251055742977">Project Paradox</a>**
+### Solving the [Project Paradox](https://twitter.com/tofo/status/512666251055742977)
 
   Your system architecture won't be a blocker for you to suggest changing that database when it really needs to
 

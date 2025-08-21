@@ -3,6 +3,8 @@ title: "Spiti Valley"
 description: "Spiti Valley photographs"
 cover: blog-content/preview/imprints-spiti.png
 date: 2023-03-14
+alias:
+  - spiti-valley
 tags:
   - Personal
   - Thoughts

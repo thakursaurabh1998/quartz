@@ -3,6 +3,8 @@ title: 'How to throttle that queue?'
 description: 'Learn how to throttle a kafka queue while consuming the messages according to your needs.'
 cover: blog-content/preview/tkafka.png
 date: 2020-08-09
+alias:
+  - how-to-throttle-that-queue
 tags:
   - Development
   - Kafka

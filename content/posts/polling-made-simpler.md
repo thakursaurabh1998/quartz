@@ -3,6 +3,8 @@ title: "Polling made simpler"
 description: "We'll talk about what is polling and how you can optimize your polling process in backend systems"
 cover: blog-content/preview/hero-image.png
 date: 2022-05-07
+alias:
+  - polling-made-simpler
 tags:
   - Architecture
   - RabbitMQ

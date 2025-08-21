@@ -3,6 +3,8 @@ title: The Flaw in Harry Potter
 description: "I'll be talking about the most discomforting flaw that I think there was in the Harry Potter series"
 cover: blog-content/preview/theboywholived.png
 date: 2020-05-26
+alias:
+  - the-flaw-in-harry-potter
 tags:
   - Fiction
   - Thoughts

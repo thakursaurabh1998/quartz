@@ -3,6 +3,8 @@ title: 'The last email @smallcase'
 description: 'A goodbye letter to the amazing folks I worked with at smallcase'
 cover: blog-content/preview/wave.png
 date: 2021-04-23
+alias:
+    - last-email-at-smallcase
 tags:
     - smallcase
     - Thoughts

@@ -3,6 +3,8 @@ title: 'Enabling smallcase Offers for the greater audience using Kafka'
 description: 'Learn how we automated and simplified the activation of promotional offers at smallcase.'
 cover: blog-content/preview/smalltalk200.png
 date: 2020-06-14
+alias:
+  - smallcase-offers-using-kafka
 tags:
   - Development
   - Fintech
