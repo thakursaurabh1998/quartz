@@ -24,9 +24,13 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono",
+        title: {
+          name: "Kalam",
+          weights: [400, 700],
+        },
+        header: "Noticia Text",
+        body: "Hind Siliguri",
+        code: "Jet Brains Mono",
       },
       colors: {
         lightMode: {
