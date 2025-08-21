@@ -1,11 +1,40 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
+import { SimpleSlug } from "./quartz/util/path"
+
+const staticPages = new Set(["about", "now"])
+
+const recentNotes = [
+  Component.RecentNotes({
+    title: String(),
+    filter: (f) =>
+      staticPages.has(f.slug!) && !f.frontmatter?.noindex,
+    sort: (a, b) => a.slug! > b.slug! ? 1 : -1,
+    showTags: false,
+  }),
+  Component.RecentNotes({
+    title: "Recent Articles",
+    limit: 3,
+    filter: (f) =>
+      f.slug!.startsWith("posts/") && f.slug! !== "posts/index" && !f.frontmatter?.noindex,
+    linkToMore: "posts/" as SimpleSlug,
+    showTags: false,
+  }),
+  Component.RecentNotes({
+    title: "Recent Notes",
+    limit: 3,
+    filter: (f) =>
+      f.slug!.startsWith("thoughts/") && f.slug! !== "thoughts/index" && !f.frontmatter?.noindex,
+    linkToMore: "thoughts/" as SimpleSlug,
+    showTags: false,
+  }),
+]
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [...recentNotes.map((c) => Component.MobileOnly(c))],
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/thakursaurabh1998",
@@ -17,18 +46,9 @@ export const sharedPageComponents: SharedLayout = {
 
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
-  beforeBody: [
-    Component.ConditionalRender({
-      component: Component.Breadcrumbs(),
-      condition: (page) => page.fileData.slug !== "index",
-    }),
-    Component.ArticleTitle(),
-    Component.ContentMeta(),
-    Component.TagList(),
-  ],
+  beforeBody: [Component.ArticleTitle(), Component.ContentMeta(), Component.TagList()],
   left: [
     Component.PageTitle(),
-    Component.MobileOnly(Component.Spacer()),
     Component.Flex({
       components: [
         {
@@ -36,15 +56,15 @@ export const defaultContentPageLayout: PageLayout = {
           grow: true,
         },
         { Component: Component.Darkmode() },
-        { Component: Component.ReaderMode() },
+        { Component: Component.DesktopOnly(Component.ReaderMode()) },
       ],
     }),
-    Component.Explorer(),
+    ...recentNotes.map((c) => Component.DesktopOnly(c)),
   ],
   right: [
-    Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
+    Component.Graph(),
   ],
 }
 
