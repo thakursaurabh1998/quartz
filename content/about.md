@@ -11,7 +11,7 @@ I also love to drive and travel to see the beauty that the &nbsp;🌏 has left t
 # Work
 
 ## [Cruise](https://getcruise.com)
-> (March 2022 - Present)
+> (March 2022 - December 2022)
 
 I am working as a contractor at Cruise. Cruise is working on self-driving(autonomous) vehicles and has a large fleet serving the streets of San Francisco.
 
@@ -33,7 +33,7 @@ At smallcase I handled the smallcase API be it B2C or B2B. I have worked on prod
 
 smallcase gave me an opportunity to understand the basics of how the financial system works which I had no idea about previously.
 
-##### Education
+# Education
 
 I studied Computer Science and Engineering at <a target="_blank" rel="noreferrer" href="https://chitkara.edu.in">Chitkara University</a>, Punjab (Batch of 2020).
 
@@ -41,7 +41,7 @@ I studied Computer Science and Engineering at <a target="_blank" rel="noreferrer
 
 - Took part in various hackathons, but one which left a mark was <a target="_blank" rel="noreferrer" href="https://www.topcoder.com/challenges/30070727?tab=winners">Call for Code</a>. The subject was natural disaster preparedness and relief, so we (me and <a target="_blank" rel="noreferrer" href="https://github.com/madhurgupta10">Madhur Gupta</a>) created a decentralized donation platform which can aid the relief process after a disaster.
 
-##### Community and Leadership
+# Community and Leadership
 
 - Was the **Lead** of <a target="_blank" rel="noreferrer" href="https://developers.google.com/community/dsc">Google Developer Student Club (DSC)</a>, lead a community of student developers, organizing various hackathons and workshops for university students on various topics.
 
@@ -49,4 +49,4 @@ I studied Computer Science and Engineering at <a target="_blank" rel="noreferrer
 
 ---
 
-Checkout the blogs that I write to express my thoughts about tech and "other" important stuff [here](/blog).
+Checkout the [articles](/posts) that I write to express my thoughts about tech and ["other" important stuff](/thoughts).
