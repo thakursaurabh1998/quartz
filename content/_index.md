@@ -1,5 +1,6 @@
 ---
 title: Hey there!
+cover: og-image.png
 date: 2022-05-03
 ---
 

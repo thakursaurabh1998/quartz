@@ -2,16 +2,22 @@ import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 import { SimpleSlug } from "./quartz/util/path"
 
-const staticPages = new Set(["about", "now"])
+const beforeBodyComponents = [
+  Component.ArticleTitle(),
+  Component.ContentMeta(),
+  Component.TagList(),
+]
 
-const recentNotes = [
-  Component.RecentNotes({
-    title: String(),
-    filter: (f) =>
-      staticPages.has(f.slug!) && !f.frontmatter?.noindex,
-    sort: (a, b) => a.slug! > b.slug! ? 1 : -1,
-    showTags: false,
-  }),
+const staticPages = new Set(["about", "now"])
+const staticPageList = Component.RecentNotes({
+  title: String(),
+  filter: (f) => staticPages.has(f.slug!) && !f.frontmatter?.noindex,
+  sort: (a, b) => (a.slug! > b.slug! ? 1 : -1),
+  showTags: false,
+})
+
+const linksToVisit = [
+  staticPageList,
   Component.RecentNotes({
     title: "Recent Articles",
     limit: 3,
@@ -30,11 +36,32 @@ const recentNotes = [
   }),
 ]
 
+const rightComponents = [
+  Component.DesktopOnly(Component.TableOfContents()),
+  Component.Backlinks(),
+  Component.Graph(),
+]
+
+const leftComponents = [
+  Component.PageTitle(),
+  Component.Flex({
+    components: [
+      {
+        Component: Component.Search(),
+        grow: true,
+      },
+      { Component: Component.Darkmode() },
+      { Component: Component.DesktopOnly(Component.ReaderMode()) },
+    ],
+  }),
+  ...linksToVisit.map((c) => Component.DesktopOnly(c)),
+]
+
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [...recentNotes.map((c) => Component.MobileOnly(c))],
+  afterBody: [...linksToVisit.map((c) => Component.MobileOnly(c))],
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/thakursaurabh1998",
@@ -46,44 +73,14 @@ export const sharedPageComponents: SharedLayout = {
 
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
-  beforeBody: [Component.ArticleTitle(), Component.ContentMeta(), Component.TagList()],
-  left: [
-    Component.PageTitle(),
-    Component.Flex({
-      components: [
-        {
-          Component: Component.Search(),
-          grow: true,
-        },
-        { Component: Component.Darkmode() },
-        { Component: Component.DesktopOnly(Component.ReaderMode()) },
-      ],
-    }),
-    ...recentNotes.map((c) => Component.DesktopOnly(c)),
-  ],
-  right: [
-    Component.DesktopOnly(Component.TableOfContents()),
-    Component.Backlinks(),
-    Component.Graph(),
-  ],
+  beforeBody: [...beforeBodyComponents],
+  left: [...leftComponents],
+  right: [...rightComponents],
 }
 
 // components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
-  beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
-  left: [
-    Component.PageTitle(),
-    Component.MobileOnly(Component.Spacer()),
-    Component.Flex({
-      components: [
-        {
-          Component: Component.Search(),
-          grow: true,
-        },
-        { Component: Component.Darkmode() },
-      ],
-    }),
-    Component.Explorer(),
-  ],
+  beforeBody: [...beforeBodyComponents],
+  left: [...leftComponents],
   right: [],
 }
