@@ -5,6 +5,7 @@ cover: blog-content/preview/hero-image.jpg
 date: 2023-01-08
 alias:
   - intro-to-hexagonal-architecture
+  - intro-to-hexagonal-architecture/
 tags:
   - Architecture
 ---

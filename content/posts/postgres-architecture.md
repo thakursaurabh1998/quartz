@@ -5,6 +5,7 @@ cover: blog-content/preview/pg-banner.png
 date: 2023-09-15
 alias:
   - postgres-architecture
+  - postgres-architecture/
 tags:
   - PostgreSQL
   - Architecture

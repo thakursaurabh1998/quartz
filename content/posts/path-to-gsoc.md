@@ -5,6 +5,7 @@ cover: blog-content/preview/gsoc200.png
 date: 2020-02-08
 alias:
   - path-to-gsoc
+  - path-to-gsoc/
 tags:
   - OSS
   - Development

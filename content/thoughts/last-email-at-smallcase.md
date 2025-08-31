@@ -5,6 +5,7 @@ cover: blog-content/preview/wave.png
 date: 2021-04-23
 alias:
     - last-email-at-smallcase
+    - last-email-at-smallcase/
 tags:
     - smallcase
     - Thoughts

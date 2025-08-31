@@ -5,6 +5,7 @@ cover: blog-content/preview/smalltalk200.png
 date: 2020-06-14
 alias:
   - smallcase-offers-using-kafka
+  - smallcase-offers-using-kafka/
 tags:
   - Development
   - Fintech

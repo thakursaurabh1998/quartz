@@ -5,6 +5,7 @@ cover: blog-content/preview/theboywholived.png
 date: 2020-05-26
 alias:
   - the-flaw-in-harry-potter
+  - the-flaw-in-harry-potter/
 tags:
   - Fiction
   - Thoughts

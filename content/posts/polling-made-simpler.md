@@ -5,6 +5,7 @@ cover: blog-content/preview/hero-image.png
 date: 2022-05-07
 alias:
   - polling-made-simpler
+  - polling-made-simpler/
 tags:
   - Architecture
   - RabbitMQ
