@@ -14,10 +14,10 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: {
       provider: "google",
-      tagId: '<your-google-tag>'
+      tagId: "G-6GYCP0MYZT",
     },
     locale: "en-US",
-    baseUrl: "thakursaurabh1998.github.io/quartz",
+    baseUrl: "saurabhthakur.dev",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
